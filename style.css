@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "SovMod";
+    src: url("SovMod.ttf") format("truetype");
+	font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF7F1;
+	font-size: 16px;
+}
+
+h1{
+	font-family: "SovMod", serif;
+	font-size: 5.9375em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0;
+}
+
+h2{
+	font-family: "SovMod", serif;
+	font-size: 3.25em;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 125%;
+	margin: 0 0 21px 0;
+}
+
+h3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+
+p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 1em;
+	margin: 0;
+}
+
+
+.content_about, .content_life {
+	background-color: #353535;
+	color: #FFF7F1;;
+}
+
+.dark, .content_main, .content_types, header {
+	width: 1104px;
+    margin: 0 auto;
+}
+
+header p{
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 1px;
+}
+
+header{
+	margin-top: 24px;
+	display: flex;
+}
+
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.block {
+	margin-top: 48px;
+}
+
+.subtopic {
+	margin-top: 72px;
+}
+
+.topic {
+	padding: 72px 0;
+}
+
+.content_main {
+	padding: 56px 0 72px 0;
+}
+
+.content_main_1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main_header h1:first-child, .content_main_1_text h3, .img_right {
+	padding-left: 144px; 
+}
+
+.img_left {
+	padding-right: 144px; 
+}
+
+.content_main_1_text {
+	padding-right: 48px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main_description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.paragraph > p:not(:last-child), .paragraph > div:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.elem, .list {
+	display: flex;
+}
+
+.elem > *:not(:last-child) {
+	margin-right: 48px;
+}
+
+.img_up {
+	margin-top: -117px;
+}
+
+.square {
+	height: 16px;
+	border: 1px solid;
+	padding-right: 16px;
+	margin-right: 16px;
+}
+
+.line {
+	margin-right: 24px;
+}
+
+.line_list {
+	display: flex;
+	align-items: flex-start;
+}
+
+.line_list_1 {
+	margin-bottom: 32px;
+}
+
+.stars {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.stars_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formula {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.formula_block {
+	display: flex;
+}
+
+.formula_block p:first-child {
+	margin-right: 48px;
+	width: 96px;
+}
+
+.the_end {
+	margin-top: 56px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
